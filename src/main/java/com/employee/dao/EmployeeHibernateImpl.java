@@ -16,7 +16,7 @@ public class EmployeeHibernateImpl implements EmployeeHibernate {
 	@Override
 	public String save(EmployeeUtility empUtility) {
 		sessionFactory.getCurrentSession().save(empUtility);
-		return "SUCCESS SAVE";
+		return "SUCCESS SAVE Branch1";
 	}
 
 }
